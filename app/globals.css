@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,23 +6,23 @@
 
 :root {
   --bg-start: #eef8ff; /* very light blue */
-  --bg-end: #f3f9ff; /* soft sky */
+  --bg-end: #f4f8ff; /* soft sky */
   --primary: #2563eb; /* blue-600 */
-  --accent: #60a5fa; /* blue-300 */
+  --accent: #3b82f6; /* blue-500 */
   --text: #0f172a; /* dark slate */
 }
 
 body {
   background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
   color: var(--text);
-  font-family: 'Poppins', Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+  font-family: 'Montserrat', Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
     Roboto, "Helvetica Neue", Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 /* Link and accent helpers */
-a { color: var(--primary); }
+a { color: var(--accent); }
 
 /* Simple utility for the initials circle */
 .initials {

@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 :root {
-  --bg-start: #eef8ff; /* very light blue */
-  --bg-end: #f4f8ff; /* soft sky */
-  --primary: #2563eb; /* blue-600 */
-  --accent: #3b82f6; /* blue-500 */
-  --text: #0f172a; /* dark slate */
+  --bg-start: #0f2a4a; /* deep navy blue */
+  --bg-end: #183a63; /* rich blue */
+  --primary: #3b82f6; /* blue-500 */
+  --accent: #60a5fa; /* blue-400 */
+  --text: #f8fafc; /* near white */
 }
 
 body {

@@ -2,8 +2,6 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-slate-100 px-4 py-10">
       <main className="relative w-full max-w-2xl overflow-hidden rounded-[32px] bg-white/95 p-8 shadow-[0_40px_100px_-40px_rgba(15,23,42,0.35)] text-center">
-        <div className="pointer-events-none absolute -left-8 top-0 h-64 w-64 rounded-full bg-blue-200/40 blur-3xl" />
-        <div className="pointer-events-none absolute right-0 top-24 h-44 w-44 rounded-full bg-slate-200/50 blur-3xl" />
         <header className="relative flex flex-col items-center gap-3 text-center">
           <h1 className="text-4xl font-extrabold tracking-tight text-slate-950 sm:text-5xl heading-underline">
             Hi, I’m Jacs Bankert
@@ -14,14 +12,14 @@ export default function Home() {
         </header>
 
         <section className="mt-10 grid gap-4 md:grid-cols-2">
-          <div className="rounded-[24px] border border-slate-200/70 bg-slate-50 p-5 shadow-sm text-center backdrop-blur-sm">
+          <div className="rounded-[24px] border border-slate-200/70 bg-sky-50 p-5 shadow-sm text-center backdrop-blur-sm">
             <h2 className="text-lg font-semibold text-slate-900 subtitle-underline">About me</h2>
             <p className="mt-3 text-slate-600 leading-7">
               I enjoy working with the Perin Health patch, learning new technologies, and making my first website.
             </p>
           </div>
 
-          <div className="rounded-[24px] border border-slate-200/70 bg-slate-50 p-5 shadow-sm text-center backdrop-blur-sm">
+          <div className="rounded-[24px] border border-slate-200/70 bg-sky-50 p-5 shadow-sm text-center backdrop-blur-sm">
             <h2 className="text-lg font-semibold text-slate-900 subtitle-underline">Currently learning</h2>
             <p className="mt-3 text-slate-600 leading-7">
               Front-end development, back-end basics, and how to use circuit boards in projects.
@@ -30,7 +28,7 @@ export default function Home() {
         </section>
 
         <section className="mt-6 grid gap-4 sm:grid-cols-2">
-          <div className="rounded-[24px] border border-slate-200/70 bg-slate-50 p-5 shadow-sm text-center backdrop-blur-sm">
+          <div className="rounded-[24px] border border-slate-200/70 bg-sky-50 p-5 shadow-sm text-center backdrop-blur-sm">
             <h3 className="text-lg font-medium text-slate-900 subtitle-underline">Skills</h3>
             <ul className="mt-3 space-y-2 text-slate-600">
               <li>Understanding new topics</li>
@@ -39,7 +37,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="rounded-[24px] border border-slate-200/70 bg-slate-50 p-5 shadow-sm text-center backdrop-blur-sm">
+          <div className="rounded-[24px] border border-slate-200/70 bg-sky-50 p-5 shadow-sm text-center backdrop-blur-sm">
             <h3 className="text-lg font-semibold text-slate-900 subtitle-underline">Contact</h3>
             <p className="mt-3 text-slate-600">
               Email: <a href="mailto:bankert.jacqueline@gmail.com" className="text-blue-600 hover:text-blue-700">bankert.jacqueline@gmail.com</a>

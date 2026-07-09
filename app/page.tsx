@@ -12,14 +12,14 @@ export default function Home() {
         </header>
 
         <section className="mt-10 grid gap-4 md:grid-cols-2">
-          <div className="rounded-[24px] border border-slate-200/70 bg-sky-50 p-5 shadow-sm text-center backdrop-blur-sm">
+          <div className="rounded-[24px] border border-slate-200/70 bg-sky-100 p-5 shadow-sm text-center backdrop-blur-sm">
             <h2 className="text-lg font-semibold text-slate-900 subtitle-underline">About me</h2>
             <p className="mt-3 text-slate-600 leading-7">
               I enjoy working with the Perin Health patch, learning new technologies, and making my first website.
             </p>
           </div>
 
-          <div className="rounded-[24px] border border-slate-200/70 bg-sky-50 p-5 shadow-sm text-center backdrop-blur-sm">
+          <div className="rounded-[24px] border border-slate-200/70 bg-sky-100 p-5 shadow-sm text-center backdrop-blur-sm">
             <h2 className="text-lg font-semibold text-slate-900 subtitle-underline">Currently learning</h2>
             <p className="mt-3 text-slate-600 leading-7">
               Front-end development, back-end basics, and how to use circuit boards in projects.
@@ -28,7 +28,7 @@ export default function Home() {
         </section>
 
         <section className="mt-6 grid gap-4 sm:grid-cols-2">
-          <div className="rounded-[24px] border border-slate-200/70 bg-sky-50 p-5 shadow-sm text-center backdrop-blur-sm">
+          <div className="rounded-[24px] border border-slate-200/70 bg-sky-100 p-5 shadow-sm text-center backdrop-blur-sm">
             <h3 className="text-lg font-medium text-slate-900 subtitle-underline">Skills</h3>
             <ul className="mt-3 space-y-2 text-slate-600">
               <li>Understanding new topics</li>
@@ -37,7 +37,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="rounded-[24px] border border-slate-200/70 bg-sky-50 p-5 shadow-sm text-center backdrop-blur-sm">
+          <div className="rounded-[24px] border border-slate-200/70 bg-sky-100 p-5 shadow-sm text-center backdrop-blur-sm">
             <h3 className="text-lg font-semibold text-slate-900 subtitle-underline">Contact</h3>
             <p className="mt-3 text-slate-600">
               Email: <a href="mailto:bankert.jacqueline@gmail.com" className="text-blue-600 hover:text-blue-700">bankert.jacqueline@gmail.com</a>
